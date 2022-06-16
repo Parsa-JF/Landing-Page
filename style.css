@@ -9,7 +9,7 @@ body {
 }
 
 .header{
-    background-color: #1F2937;
+    background-color: black;
     color: #f9faf8;
     height:70px;
     width: auto;
@@ -17,6 +17,11 @@ body {
     align-items: center;
     justify-content: space-evenly;
 
+}
+
+img{
+    flex :1;
+    max-width:400px;
 }
 
 h3{
@@ -54,7 +59,8 @@ li{
     display:flex;
     justify-content: center;
     align-items: center;
-
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .left-part{
@@ -87,6 +93,8 @@ h2{
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
+
 }
 
 .q2heading{
@@ -117,7 +125,7 @@ h2{
     flex-direction: column;
     align-items: center;
     padding-top:30px;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 }
 
 .q4{
@@ -185,17 +193,18 @@ button{
     flex: 1;
     font-style: italic;
     color: #1f2937;
-    font-size: 36px;
+    font-size: 30px;
     max-width: 1000px;
     padding:100px;
     padding-bottom: 10px;
 }
 .person{
-
+    display: flex;
     font-weight: bolder;
     color: #1F2937;
-    width: 1000px;
-    text-align: right;
+    width:100vh;
+    justify-content: right;
+
     
 }
 
