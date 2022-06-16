@@ -121,9 +121,14 @@ h2{
 }
 
 .q4{
-    flex: 1;
+    Display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 
 }
+
 .footer{
     background-color: #1F2937;
     height:70px;
@@ -192,4 +197,20 @@ button{
     width: 1000px;
     text-align: right;
     
+}
+
+.box{
+    flex:1;
+    border-radius: 10px;
+    background-color:#3882f6;
+    padding: 20px;
+    color: white;
+    max-width: 600px;
+    text-align: center;
+    
+}
+
+.special{
+    border-color: white;
+    border: solid 2px;
 }
